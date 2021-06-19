@@ -1,0 +1,64 @@
+body{
+    background:aliceblue;
+}
+.heading{
+font-family: 'Odibee Sans', cursive;
+font-size:20px;
+margin-top:6px;
+width:100%;
+}
+.play_button{
+    background:aliceblue;
+    border:5px solid orange;
+    width:150px;
+    height:70px;
+    font-size:20px;
+    color:orange;
+    font-weight:bolder;
+}
+.play_button:hover{
+    border:5px solid yellow;
+    box-shadow: 0 0.5em 0.5em -0.4em yellow;
+    transform: translateY(-0.25em);
+color:yellow;
+}
+.stop_button{
+    background:aliceblue;
+    border:5px solid greenyellow;
+    width:150px;
+    height:70px;
+    font-size:20px;
+    color:greenyellow;
+    font-weight:bolder;
+}
+.stop_button:hover{
+    border:5px solid skyblue;
+    box-shadow: 0 0.5em 0.5em -0.4em skyblue;
+    transform: translateY(-0.25em);
+color:skyblue;
+}
+.note{
+    font-size:15px;
+}
+.div_speed{
+    float:left;
+}
+#speed,#volume{
+    font-size:23px;
+    margin:15px;
+}
+.div_speed_img,.div_volume_img{
+    width:200px;
+    height:200px;
+    border-radius:100px;
+    margin-left:15px;
+}
+.div_volume{
+    float:right;
+}
+canvas{
+border:5px solid white;
+    border-radius:15px;
+    margin-top:200px;
+}
+
